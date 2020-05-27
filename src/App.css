@@ -1,0 +1,14 @@
+#root,
+html {
+  background-color: rgb(2, 1, 0);
+}
+::placeholder {
+  font-style: italic;
+}
+@media (min-width: 0px) {
+  .cards {
+    display: inline-block !important;
+    margin-bottom: 10px;
+    width: 220px !important;
+  }
+}
